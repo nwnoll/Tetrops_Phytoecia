@@ -1,0 +1,46 @@
+Download sequences in fasta format for searchterm Phytoecia and Tettops on 07.02.2021 from https://www.boldsystems.org/index.php/Public_SearchTerms
+remove COI-3P from datasets
+
+
+fasta format Tetrops AND COI 07.02.2021  https://www.ncbi.nlm.nih.gov/nuccore/
+removed 
+>KC960084.1 Eurytoma morio isolate EUR122 cytochrome c oxidase subunit I (COI) gene, partial cds; mitochondrial
+
+
+
+fasta format Phytoecia AND COI 07.02.2021  https://www.ncbi.nlm.nih.gov/nuccore/
+remmoved
+>KF737778.1 Phytoecia sibirica voucher HNAU.PP 062 16S ribosomal RNA gene, partial sequence; mitochondrial
+>KF737777.1 Phytoecia comes voucher HNAU.PP 061 16S ribosomal RNA gene, partial sequence; mitochondrial
+>KF737715.1 Phytoecia sibirica voucher HNAU.PP 062 12S ribosomal RNA gene, partial sequence; mitochondrial
+>KF737714.1 Phytoecia comes voucher HNAU.PP 061 12S ribosomal RNA gene, partial sequence; mitochondrial
+
+
+GBOL Dataset-Release
+grep Phytoecia GBOL_Dataset_Release-20210128.csv
+grep Tetrops GBOL_Dataset_Release-20210128.csv
+
+
+ruby gbol_to_fasta.rb Tetrops_gbol.csv > Tetrops_gbol.fas
+ruby gbol_to_fasta.rb Phytoecia_gbol.csv > Phytoecia_gbol.fas
+cat *.fas > all.fas
+
+
+usearch11.0.667_i86linux32 -fastx_uniques all.fas -fastaout all_uniques.fas -sizeout
+
+
+removed from all_uniques.fas due to large size
+>KF737841.1 Phytoecia sibirica voucher HNAU.PP 062 cytochrome oxidase subunit I gene, complete cds; mitochondrial;size=1;
+>KF737840.1 Phytoecia comes voucher HNAU.PP 061 cytochrome oxidase subunit I gene, partial cds; mitochondrial;size=1;
+
+
+MAFFT v7.475 (2020/Nov/23)
+mafft --maxiterate 1000 --globalpair all_uniques.fas > all_uniques.al.fas 
+mafft --maxiterate 1000 --globalpair --leavegappyregion all_uniques.fas > all_uniques_leavegap.al.fas 
+
+
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+iqtree -s all_uniques_uc.al.fas
+
+
+tree visualizations generated with https://itol.embl.de/

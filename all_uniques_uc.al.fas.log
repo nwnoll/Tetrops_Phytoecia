@@ -1,0 +1,438 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    nnoll-Nitro-AN515-52 (AVX2, FMA3, 7 GB RAM)
+Command: iqtree -s all_uniques_uc.al.fas
+Seed:    713057 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Feb  7 21:27:39 2021
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file all_uniques_uc.al.fas ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 82 sequences with 877 columns, 479 distinct patterns
+448 parsimony-informative, 100 singleton sites, 329 constant sites
+WARNING: Some sequence names are changed as follows:
+COLFE1500-13|Tetrops_starkii|COI-5P|KJ964167;size=29; -> COLFE1500-13_Tetrops_starkii_COI-5P_KJ964167_size_29_
+FBCOQ126-13|Phytoecia_coerulescens|COI-5P|KM451540;size=23; -> FBCOQ126-13_Phytoecia_coerulescens_COI-5P_KM451540_size_23_
+FBCOQ095-13|Phytoecia_nigricornis|COI-5P|KM447456;size=18; -> FBCOQ095-13_Phytoecia_nigricornis_COI-5P_KM447456_size_18_
+ASCMT164-11|Tetrops_praeustus|COI-5P|MG059846;size=18; -> ASCMT164-11_Tetrops_praeustus_COI-5P_MG059846_size_18_
+COLFF265-13|Tetrops_praeustus|COI-5P|KJ967190;size=15; -> COLFF265-13_Tetrops_praeustus_COI-5P_KJ967190_size_15_
+FBCOA539-10|Phytoecia_cylindrica|COI-5P|JN299244;size=13; -> FBCOA539-10_Phytoecia_cylindrica_COI-5P_JN299244_size_13_
+GCOL10331-16|Tetrops_praeustus|COI-5P|KU906235;size=12; -> GCOL10331-16_Tetrops_praeustus_COI-5P_KU906235_size_12_
+FBCOK687-13|Phytoecia_coerulescens|COI-5P|KM439416;size=9; -> FBCOK687-13_Phytoecia_coerulescens_COI-5P_KM439416_size_9_
+GCOL11363-16|Phytoecia_pustulata|COI-5P|KU910987;size=7; -> GCOL11363-16_Phytoecia_pustulata_COI-5P_KU910987_size_7_
+GBCOC360-12|Tetrops_starkii|COI-5P|KM446254;size=6; -> GBCOC360-12_Tetrops_starkii_COI-5P_KM446254_size_6_
+ZFMK-TIS-2604724|Phytoecia_virgula;size=6; -> ZFMK-TIS-2604724_Phytoecia_virgula_size_6_
+COLFD250-12|Phytoecia_nigricornis|COI-5P|KJ962511;size=5; -> COLFD250-12_Phytoecia_nigricornis_COI-5P_KJ962511_size_5_
+GBCOU561-13|Tetrops_starkii|COI-5P|KM450609;size=3; -> GBCOU561-13_Tetrops_starkii_COI-5P_KM450609_size_3_
+GBCOL296-12|Phytoecia_coerulescens|COI-5P|KM450199;size=3; -> GBCOL296-12_Phytoecia_coerulescens_COI-5P_KM450199_size_3_
+GBCOD201-13|Phytoecia_cylindrica|COI-5P|KM447008;size=3; -> GBCOD201-13_Phytoecia_cylindrica_COI-5P_KM447008_size_3_
+GCOL4301-16|Phytoecia_coerulescens|COI-5P|KU906553;size=3; -> GCOL4301-16_Phytoecia_coerulescens_COI-5P_KU906553_size_3_
+GBCOC567-12|Tetrops_praeustus|COI-5P|KM448032;size=3; -> GBCOC567-12_Tetrops_praeustus_COI-5P_KM448032_size_3_
+GMGMJ158-14|Phytoecia_nigricornis|COI-5P;size=3; -> GMGMJ158-14_Phytoecia_nigricornis_COI-5P_size_3_
+GBCOU2981-13|Phytoecia_nigricornis|COI-5P|KM442652;size=3; -> GBCOU2981-13_Phytoecia_nigricornis_COI-5P_KM442652_size_3_
+GCOL7789-16|Phytoecia_coerulescens|COI-5P|KU916615;size=3; -> GCOL7789-16_Phytoecia_coerulescens_COI-5P_KU916615_size_3_
+GCOL1475-16|Tetrops_praeustus|COI-5P|KU917980;size=3; -> GCOL1475-16_Tetrops_praeustus_COI-5P_KU917980_size_3_
+GCOL3777-16|Tetrops_praeustus|COI-5P|KU911828;size=3; -> GCOL3777-16_Tetrops_praeustus_COI-5P_KU911828_size_3_
+FBCOC126-10|Phytoecia_icterica|COI-5P|HQ954554;size=3; -> FBCOC126-10_Phytoecia_icterica_COI-5P_HQ954554_size_3_
+FBCOC163-10|Phytoecia_nigripes|COI-5P|HQ954588;size=3; -> FBCOC163-10_Phytoecia_nigripes_COI-5P_HQ954588_size_3_
+GCOL7788-16|Phytoecia_coerulescens|COI-5P|KU910639;size=3; -> GCOL7788-16_Phytoecia_coerulescens_COI-5P_KU910639_size_3_
+GCOL4378-16|Phytoecia_coerulescens|COI-5P|KU908377;size=3; -> GCOL4378-16_Phytoecia_coerulescens_COI-5P_KU908377_size_3_
+FBCOA919-10|Phytoecia_nigricornis|COI-5P|HQ953692;size=3; -> FBCOA919-10_Phytoecia_nigricornis_COI-5P_HQ953692_size_3_
+GCOL3999-16|Phytoecia_coerulescens|COI-5P|KU906706;size=3; -> GCOL3999-16_Phytoecia_coerulescens_COI-5P_KU906706_size_3_
+GCOL441-16|Tetrops_praeustus|COI-5P|KU911352;size=3; -> GCOL441-16_Tetrops_praeustus_COI-5P_KU911352_size_3_
+GCOL6776-16|Phytoecia_coerulescens|COI-5P|KU916764;size=3; -> GCOL6776-16_Phytoecia_coerulescens_COI-5P_KU916764_size_3_
+FBCOE441-12|Phytoecia_nigricornis|COI-5P|KM449161;size=3; -> FBCOE441-12_Phytoecia_nigricornis_COI-5P_KM449161_size_3_
+GCOL286-16|Tetrops_praeustus|COI-5P|KU916245;size=3; -> GCOL286-16_Tetrops_praeustus_COI-5P_KU916245_size_3_
+FBCOG1398-12|Tetrops_starkii|COI-5P|KM447580;size=3; -> FBCOG1398-12_Tetrops_starkii_COI-5P_KM447580_size_3_
+FBCOB340-10|Phytoecia_coerulescens|COI-5P|HQ953961;size=3; -> FBCOB340-10_Phytoecia_coerulescens_COI-5P_HQ953961_size_3_
+GMGMJ867-14|Phytoecia_nigricornis|COI-5P;size=3; -> GMGMJ867-14_Phytoecia_nigricornis_COI-5P_size_3_
+GBCOU2969-13|Phytoecia_coerulescens|COI-5P|KM449736;size=3; -> GBCOU2969-13_Phytoecia_coerulescens_COI-5P_KM449736_size_3_
+FBCOK688-13|Phytoecia_coerulescens|COI-5P|KM441711;size=3; -> FBCOK688-13_Phytoecia_coerulescens_COI-5P_KM441711_size_3_
+FBCOE440-12|Phytoecia_nigricornis|COI-5P|KM440249;size=3; -> FBCOE440-12_Phytoecia_nigricornis_COI-5P_KM440249_size_3_
+GCOL3776-16|Tetrops_praeustus|COI-5P|KU918968;size=3; -> GCOL3776-16_Tetrops_praeustus_COI-5P_KU918968_size_3_
+GBCOU360-13|Phytoecia_coerulescens|COI-5P|KM443759;size=3; -> GBCOU360-13_Phytoecia_coerulescens_COI-5P_KM443759_size_3_
+GBCLC1883-19|Phytoecia_affinis|COI-5P|MH020472;size=2; -> GBCLC1883-19_Phytoecia_affinis_COI-5P_MH020472_size_2_
+COLFE1537-13|Tetrops_starkii|COI-5P|KJ965662;size=2; -> COLFE1537-13_Tetrops_starkii_COI-5P_KJ965662_size_2_
+GBCLC1885-19|Phytoecia_rufiventris|COI-5P|KF247297;size=2; -> GBCLC1885-19_Phytoecia_rufiventris_COI-5P_KF247297_size_2_
+SSROC4042-15|Tetrops_praeustus|COI-5P|MF640407;size=2; -> SSROC4042-15_Tetrops_praeustus_COI-5P_MF640407_size_2_
+RRSSA1043-15|Tetrops_praeustus|COI-5P|KT615264;size=2; -> RRSSA1043-15_Tetrops_praeustus_COI-5P_KT615264_size_2_
+BARSC413-16|Tetrops_praeustus|COI-5P;size=2; -> BARSC413-16_Tetrops_praeustus_COI-5P_size_2_
+COLFA620-12|Tetrops_praeustus|COI-5P|KJ967255;size=2; -> COLFA620-12_Tetrops_praeustus_COI-5P_KJ967255_size_2_
+FBCOB339-10|Phytoecia_coerulescens|COI-5P|HQ953960;size=2; -> FBCOB339-10_Phytoecia_coerulescens_COI-5P_HQ953960_size_2_
+GBMNA38617-19|Phytoecia_affinis|COI-5P|MH613747;size=2; -> GBMNA38617-19_Phytoecia_affinis_COI-5P_MH613747_size_2_
+GBCLC1882-19|Phytoecia_affinis|COI-5P|MH020471;size=2; -> GBCLC1882-19_Phytoecia_affinis_COI-5P_MH020471_size_2_
+RRSSA2371-15|Tetrops_praeustus|COI-5P|MG058445;size=2; -> RRSSA2371-15_Tetrops_praeustus_COI-5P_MG058445_size_2_
+GBMNA38618-19|Phytoecia_affinis|COI-5P|MH613748;size=2; -> GBMNA38618-19_Phytoecia_affinis_COI-5P_MH613748_size_2_
+PHMAL230-10|Tetrops_praeustus|COI-5P|KR486593;size=2; -> PHMAL230-10_Tetrops_praeustus_COI-5P_KR486593_size_2_
+GBCL4607-09|Phytoecia_rufiventris|COI-5P|AB457206;size=2; -> GBCL4607-09_Phytoecia_rufiventris_COI-5P_AB457206_size_2_
+CNRGK672-15|Tetrops_praeustus|COI-5P|MF639495;size=2; -> CNRGK672-15_Tetrops_praeustus_COI-5P_MF639495_size_2_
+COLFF700-13|Tetrops_praeustus|COI-5P|KJ967464;size=2; -> COLFF700-13_Tetrops_praeustus_COI-5P_KJ967464_size_2_
+CERLF577-08|Tetrops_praeustus|COI-5P;size=1; -> CERLF577-08_Tetrops_praeustus_COI-5P_size_1_
+BCZSM_COLA_01284;GBCOU4799-14|Phytoecia_coerulescens;size=1; -> BCZSM_COLA_01284_GBCOU4799-14_Phytoecia_coerulescens_size_1_
+CERLF575-08|Tetrops_praeustus|COI-5P;size=1; -> CERLF575-08_Tetrops_praeustus_COI-5P_size_1_
+GMBUA319-14|Phytoecia_nigricornis|COI-5P;size=1; -> GMBUA319-14_Phytoecia_nigricornis_COI-5P_size_1_
+OPPEE7078-17|Tetrops_praeustus|COI-5P;size=1; -> OPPEE7078-17_Tetrops_praeustus_COI-5P_size_1_
+GBOL05721;GBCOU5711-14|Phytoecia_nigripes;size=1; -> GBOL05721_GBCOU5711-14_Phytoecia_nigripes_size_1_
+GBOL04313;GBCOU5164-14|Phytoecia_uncinata;size=1; -> GBOL04313_GBCOU5164-14_Phytoecia_uncinata_size_1_
+CERLF574-08|Tetrops_praeustus|COI-5P;size=1; -> CERLF574-08_Tetrops_praeustus_COI-5P_size_1_
+GBOL13989;GBCOU9570-15|Phytoecia_uncinata;size=1; -> GBOL13989_GBCOU9570-15_Phytoecia_uncinata_size_1_
+OPPEC5002-17|Tetrops_praeustus|COI-5P;size=1; -> OPPEC5002-17_Tetrops_praeustus_COI-5P_size_1_
+AM283245.1_Phytoecia_algerica_mitochondrial_partial_COI_gene_for_cytochrome_oxidase_subunit_I,_specimen_voucher_BMNH#704356;size=1; -> AM283245.1_Phytoecia_algerica_mitochondrial_partial_COI_gene_for_cytochrome_oxidase_subunit_I__specimen_voucher_BMNH_704356_size_1_
+GMBUA345-14|Tetrops_praeustus|COI-5P;size=1; -> GMBUA345-14_Tetrops_praeustus_COI-5P_size_1_
+BARSD317-16|Tetrops_praeustus|COI-5P;size=1; -> BARSD317-16_Tetrops_praeustus_COI-5P_size_1_
+AACTA1846-20|Phytoecia_coerulescens|COI-5P;size=1; -> AACTA1846-20_Phytoecia_coerulescens_COI-5P_size_1_
+ZFMK-TIS-2529227|Phytoecia_virgula;size=1; -> ZFMK-TIS-2529227_Phytoecia_virgula_size_1_
+BCZSM_COLA_01285;GBCOU4800-14|Phytoecia_coerulescens;size=1; -> BCZSM_COLA_01285_GBCOU4800-14_Phytoecia_coerulescens_size_1_
+HQ953960.1_Phytoecia_caerulescens_voucher_BC_ZSM_COL_01099_cytochrome_oxidase_subunit_1_(COI)_gene,_partial_cds;_mitochondrial;size=1; -> HQ953960.1_Phytoecia_caerulescens_voucher_BC_ZSM_COL_01099_cytochrome_oxidase_subunit_1__COI__gene__partial_cds__mitochondrial_size_1_
+OPPEE6022-17|Tetrops_praeustus|COI-5P;size=1; -> OPPEE6022-17_Tetrops_praeustus_COI-5P_size_1_
+CERLF576-08|Tetrops_praeustus|COI-5P;size=1; -> CERLF576-08_Tetrops_praeustus_COI-5P_size_1_
+HQ165588.1_Tetrops_praeustus_voucher_BMNH:677564_cytochrome_c_oxidase_subunit_I_(COI)_gene,_partial_cds;_mitochondrial;size=1; -> HQ165588.1_Tetrops_praeustus_voucher_BMNH_677564_cytochrome_c_oxidase_subunit_I__COI__gene__partial_cds__mitochondrial_size_1_
+OPPOC2982-17|Tetrops_praeustus|COI-5P;size=1; -> OPPOC2982-17_Tetrops_praeustus_COI-5P_size_1_
+BARSI041-16|Tetrops_praeustus|COI-5P;size=1; -> BARSI041-16_Tetrops_praeustus_COI-5P_size_1_
+ZFMK-TIS-2509169|Phytoecia_nigricornis;size=1; -> ZFMK-TIS-2509169_Phytoecia_nigricornis_size_1_
+HQ165006.1_Tetrops_praeustus_voucher_BMNH:833873_cytochrome_c_oxidase_subunit_I_(COI)_gene,_partial_cds;_mitochondrial;size=1; -> HQ165006.1_Tetrops_praeustus_voucher_BMNH_833873_cytochrome_c_oxidase_subunit_I__COI__gene__partial_cds__mitochondrial_size_1_
+ROUGE1924-17|Tetrops_praeustus|COI-5P;size=1; -> ROUGE1924-17_Tetrops_praeustus_COI-5P_size_1_
+GMBUA356-14|Tetrops_praeustus|COI-5P;size=1; -> GMBUA356-14_Tetrops_praeustus_COI-5P_size_1_
+
+                                                                                                                                        Gap/Ambiguity  Composition  p-value
+   1  COLFE1500-13_Tetrops_starkii_COI-5P_KJ964167_size_29_                                                                                    24.97%    passed     27.67%
+   2  FBCOQ126-13_Phytoecia_coerulescens_COI-5P_KM451540_size_23_                                                                              24.97%    passed     97.61%
+   3  FBCOQ095-13_Phytoecia_nigricornis_COI-5P_KM447456_size_18_                                                                               24.97%    passed     98.10%
+   4  ASCMT164-11_Tetrops_praeustus_COI-5P_MG059846_size_18_                                                                                   24.97%    passed     85.88%
+   5  COLFF265-13_Tetrops_praeustus_COI-5P_KJ967190_size_15_                                                                                   24.97%    passed     87.43%
+   6  FBCOA539-10_Phytoecia_cylindrica_COI-5P_JN299244_size_13_                                                                                24.97%    passed     94.52%
+   7  GCOL10331-16_Tetrops_praeustus_COI-5P_KU906235_size_12_                                                                                  24.97%    passed     91.13%
+   8  FBCOK687-13_Phytoecia_coerulescens_COI-5P_KM439416_size_9_                                                                               24.97%    passed     97.15%
+   9  GCOL11363-16_Phytoecia_pustulata_COI-5P_KU910987_size_7_                                                                                 24.97%    passed     91.29%
+  10  GBCOC360-12_Tetrops_starkii_COI-5P_KM446254_size_6_                                                                                      24.97%    passed     85.95%
+  11  ZFMK-TIS-2604724_Phytoecia_virgula_size_6_                                                                                               24.97%    failed      2.88%
+  12  COLFD250-12_Phytoecia_nigricornis_COI-5P_KJ962511_size_5_                                                                                24.97%    passed     98.39%
+  13  GBCOU561-13_Tetrops_starkii_COI-5P_KM450609_size_3_                                                                                      24.97%    passed     60.87%
+  14  GBCOL296-12_Phytoecia_coerulescens_COI-5P_KM450199_size_3_                                                                               26.11%    passed     94.31%
+  15  GBCOD201-13_Phytoecia_cylindrica_COI-5P_KM447008_size_3_                                                                                 34.09%    passed     94.21%
+  16  GCOL4301-16_Phytoecia_coerulescens_COI-5P_KU906553_size_3_                                                                               24.97%    passed     97.68%
+  17  GBCOC567-12_Tetrops_praeustus_COI-5P_KM448032_size_3_                                                                                    24.97%    passed     87.08%
+  18  GMGMJ158-14_Phytoecia_nigricornis_COI-5P_size_3_                                                                                         34.32%    passed     98.97%
+  19  GBCOU2981-13_Phytoecia_nigricornis_COI-5P_KM442652_size_3_                                                                               30.10%    passed     98.08%
+  20  GCOL7789-16_Phytoecia_coerulescens_COI-5P_KU916615_size_3_                                                                               24.97%    passed     97.91%
+  21  GCOL1475-16_Tetrops_praeustus_COI-5P_KU917980_size_3_                                                                                    24.97%    passed     91.46%
+  22  GCOL3777-16_Tetrops_praeustus_COI-5P_KU911828_size_3_                                                                                    24.97%    passed     85.88%
+  23  FBCOC126-10_Phytoecia_icterica_COI-5P_HQ954554_size_3_                                                                                   24.97%    passed     97.27%
+  24  FBCOC163-10_Phytoecia_nigripes_COI-5P_HQ954588_size_3_                                                                                   24.97%    passed     39.04%
+  25  GCOL7788-16_Phytoecia_coerulescens_COI-5P_KU910639_size_3_                                                                               24.97%    passed     96.85%
+  26  GCOL4378-16_Phytoecia_coerulescens_COI-5P_KU908377_size_3_                                                                               24.97%    passed     98.25%
+  27  FBCOA919-10_Phytoecia_nigricornis_COI-5P_HQ953692_size_3_                                                                                24.97%    passed     99.21%
+  28  GCOL3999-16_Phytoecia_coerulescens_COI-5P_KU906706_size_3_                                                                               24.97%    passed     96.82%
+  29  GCOL441-16_Tetrops_praeustus_COI-5P_KU911352_size_3_                                                                                     24.97%    passed     85.95%
+  30  GCOL6776-16_Phytoecia_coerulescens_COI-5P_KU916764_size_3_                                                                               24.97%    passed     96.71%
+  31  FBCOE441-12_Phytoecia_nigricornis_COI-5P_KM449161_size_3_                                                                                28.85%    passed     99.08%
+  32  GCOL286-16_Tetrops_praeustus_COI-5P_KU916245_size_3_                                                                                     24.97%    passed     85.98%
+  33  FBCOG1398-12_Tetrops_starkii_COI-5P_KM447580_size_3_                                                                                     25.54%    passed     63.70%
+  34  FBCOB340-10_Phytoecia_coerulescens_COI-5P_HQ953961_size_3_                                                                               32.38%    passed     83.78%
+  35  GMGMJ867-14_Phytoecia_nigricornis_COI-5P_size_3_                                                                                         32.61%    passed     98.77%
+  36  GBCOU2969-13_Phytoecia_coerulescens_COI-5P_KM449736_size_3_                                                                              24.97%    passed     97.87%
+  37  FBCOK688-13_Phytoecia_coerulescens_COI-5P_KM441711_size_3_                                                                               25.54%    passed     94.78%
+  38  FBCOE440-12_Phytoecia_nigricornis_COI-5P_KM440249_size_3_                                                                                28.73%    passed     99.07%
+  39  GCOL3776-16_Tetrops_praeustus_COI-5P_KU918968_size_3_                                                                                    25.09%    passed     87.21%
+  40  GBCOU360-13_Phytoecia_coerulescens_COI-5P_KM443759_size_3_                                                                               24.97%    passed     97.61%
+  41  GBCLC1883-19_Phytoecia_affinis_COI-5P_MH020472_size_2_                                                                                   30.56%    passed     47.89%
+  42  COLFE1537-13_Tetrops_starkii_COI-5P_KJ965662_size_2_                                                                                     24.97%    passed     23.96%
+  43  GBCLC1885-19_Phytoecia_rufiventris_COI-5P_KF247297_size_2_                                                                               45.04%    passed     55.93%
+  44  SSROC4042-15_Tetrops_praeustus_COI-5P_MF640407_size_2_                                                                                   34.32%    passed     61.16%
+  45  RRSSA1043-15_Tetrops_praeustus_COI-5P_KT615264_size_2_                                                                                   41.28%    passed     49.26%
+  46  BARSC413-16_Tetrops_praeustus_COI-5P_size_2_                                                                                             24.97%    passed     82.16%
+  47  COLFA620-12_Tetrops_praeustus_COI-5P_KJ967255_size_2_                                                                                    24.97%    passed     92.46%
+  48  FBCOB339-10_Phytoecia_coerulescens_COI-5P_HQ953960_size_2_                                                                               28.28%    passed     93.32%
+  49  GBMNA38617-19_Phytoecia_affinis_COI-5P_MH613747_size_2_                                                                                  41.51%    passed     69.84%
+  50  GBCLC1882-19_Phytoecia_affinis_COI-5P_MH020471_size_2_                                                                                   30.56%    passed     44.03%
+  51  RRSSA2371-15_Tetrops_praeustus_COI-5P_MG058445_size_2_                                                                                   35.35%    passed     49.60%
+  52  GBMNA38618-19_Phytoecia_affinis_COI-5P_MH613748_size_2_                                                                                  41.51%    passed     64.07%
+  53  PHMAL230-10_Tetrops_praeustus_COI-5P_KR486593_size_2_                                                                                    27.37%    passed     81.43%
+  54  GBCL4607-09_Phytoecia_rufiventris_COI-5P_AB457206_size_2_                                                                                27.14%    passed     77.64%
+  55  CNRGK672-15_Tetrops_praeustus_COI-5P_MF639495_size_2_                                                                                    32.61%    passed     66.24%
+  56  COLFF700-13_Tetrops_praeustus_COI-5P_KJ967464_size_2_                                                                                    24.97%    passed     93.11%
+  57  CERLF577-08_Tetrops_praeustus_COI-5P_size_1_                                                                                             24.97%    passed     82.95%
+  58  BCZSM_COLA_01284_GBCOU4799-14_Phytoecia_coerulescens_size_1_                                                                             36.26%    passed     98.16%
+  59  CERLF575-08_Tetrops_praeustus_COI-5P_size_1_                                                                                             32.27%    passed     90.11%
+  60  GMBUA319-14_Phytoecia_nigricornis_COI-5P_size_1_                                                                                         32.84%    passed     98.82%
+  61  OPPEE7078-17_Tetrops_praeustus_COI-5P_size_1_                                                                                            24.97%    passed     88.83%
+  62  GBOL05721_GBCOU5711-14_Phytoecia_nigripes_size_1_                                                                                        24.97%    passed     55.13%
+  63  GBOL04313_GBCOU5164-14_Phytoecia_uncinata_size_1_                                                                                        24.97%    passed     98.17%
+  64  CERLF574-08_Tetrops_praeustus_COI-5P_size_1_                                                                                             24.97%    passed     85.95%
+  65  GBOL13989_GBCOU9570-15_Phytoecia_uncinata_size_1_                                                                                        24.97%    passed     97.91%
+  66  OPPEC5002-17_Tetrops_praeustus_COI-5P_size_1_                                                                                            25.20%    passed     88.71%
+  67  AM283245.1_Phytoecia_algerica_mitochondrial_partial_COI_gene_for_cytochrome_oxidase_subunit_I__specimen_voucher_BMNH_704356_size_1_       5.47%    failed      2.17%
+  68  GMBUA345-14_Tetrops_praeustus_COI-5P_size_1_                                                                                             36.94%    passed     95.41%
+  69  BARSD317-16_Tetrops_praeustus_COI-5P_size_1_                                                                                             33.64%    passed     61.37%
+  70  AACTA1846-20_Phytoecia_coerulescens_COI-5P_size_1_                                                                                       25.20%    passed     97.51%
+  71  ZFMK-TIS-2529227_Phytoecia_virgula_size_1_                                                                                               24.97%    passed     99.90%
+  72  BCZSM_COLA_01285_GBCOU4800-14_Phytoecia_coerulescens_size_1_                                                                             24.97%    passed     98.04%
+  73  HQ953960.1_Phytoecia_caerulescens_voucher_BC_ZSM_COL_01099_cytochrome_oxidase_subunit_1__COI__gene__partial_cds__mitochondrial_size_1_   29.08%    passed     94.58%
+  74  OPPEE6022-17_Tetrops_praeustus_COI-5P_size_1_                                                                                            24.97%    passed     94.36%
+  75  CERLF576-08_Tetrops_praeustus_COI-5P_size_1_                                                                                             24.97%    passed     83.22%
+  76  HQ165588.1_Tetrops_praeustus_voucher_BMNH_677564_cytochrome_c_oxidase_subunit_I__COI__gene__partial_cds__mitochondrial_size_1_            6.50%    passed     74.90%
+  77  OPPOC2982-17_Tetrops_praeustus_COI-5P_size_1_                                                                                            24.97%    passed     97.46%
+  78  BARSI041-16_Tetrops_praeustus_COI-5P_size_1_                                                                                             33.98%    passed     85.31%
+  79  ZFMK-TIS-2509169_Phytoecia_nigricornis_size_1_                                                                                           24.97%    passed     98.65%
+  80  HQ165006.1_Tetrops_praeustus_voucher_BMNH_833873_cytochrome_c_oxidase_subunit_I__COI__gene__partial_cds__mitochondrial_size_1_            6.50%    passed     23.71%
+  81  ROUGE1924-17_Tetrops_praeustus_COI-5P_size_1_                                                                                            42.19%    passed     93.28%
+  82  GMBUA356-14_Tetrops_praeustus_COI-5P_size_1_                                                                                             37.51%    passed     91.56%
+****  TOTAL                                                                                                                                    27.39%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+NOTE: ModelFinder requires 12 MB RAM!
+ModelFinder will test 286 DNA models (sample size: 877) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            6637.653     161 13597.306    13670.263    14366.324
+  2  JC+I          6600.022     162 13524.045    13598.011    14297.839
+  3  JC+G4         6469.774     162 13263.547    13337.514    14037.341
+  4  JC+I+G4       6472.006     163 13270.011    13344.996    14048.582
+  5  JC+R2         6454.650     163 13235.300    13310.284    14013.870
+  6  JC+R3         6446.268     165 13222.536    13299.582    14010.659
+  7  JC+R4         6446.162     167 13226.324    13305.467    14024.001
+ 14  F81+F         6491.524     164 13311.047    13387.058    14094.394
+ 15  F81+F+I       6449.252     165 13228.504    13305.551    14016.628
+ 16  F81+F+G4      6273.510     165 12877.019    12954.066    13665.143
+ 17  F81+F+I+G4    6274.491     166 12880.981    12959.071    13673.881
+ 18  F81+F+R2      6274.535     166 12881.070    12959.160    13673.970
+ 19  F81+F+R3      6258.720     168 12853.441    12933.644    13655.894
+ 20  F81+F+R4      6258.698     170 12857.396    12939.747    13669.402
+ 27  K2P           6557.931     162 13439.861    13513.828    14213.655
+ 28  K2P+I         6516.871     163 13359.741    13434.726    14138.312
+ 29  K2P+G4        6374.342     163 13074.684    13149.669    13853.255
+ 30  K2P+I+G4      6375.684     164 13079.368    13155.380    13862.716
+ 31  K2P+R2        6363.541     164 13055.081    13131.092    13838.428
+ 32  K2P+R3        6352.386     166 13036.772    13114.862    13829.672
+ 33  K2P+R4        6352.362     168 13040.725    13120.928    13843.178
+ 40  HKY+F         6377.376     165 13084.753    13161.799    13872.876
+ 41  HKY+F+I       6331.199     166 12994.398    13072.488    13787.298
+ 42  HKY+F+G4      6126.320     166 12584.640    12662.730    13377.540
+ 43  HKY+F+I+G4    6127.267     167 12588.535    12667.677    13386.212
+ 44  HKY+F+R2      6136.444     167 12606.887    12686.030    13404.564
+ 45  HKY+F+R3      6113.123     169 12564.246    12645.519    13371.476
+ 46  HKY+F+R4      6113.016     171 12568.031    12651.469    13384.814
+ 53  TNe           6526.021     163 13378.041    13453.026    14156.612
+ 54  TNe+I         6478.195     164 13284.391    13360.402    14067.738
+ 55  TNe+G4        6333.708     164 12995.417    13071.428    13778.764
+ 56  TNe+I+G4      6334.371     165 12998.742    13075.788    13786.865
+ 57  TNe+R2        6332.097     165 12994.193    13071.240    13782.317
+ 58  TNe+R3        6320.635     167 12975.271    13054.413    13772.947
+ 59  TNe+R4        6320.580     169 12979.159    13060.432    13786.389
+ 66  TN+F          6353.925     166 13039.850    13117.940    13832.750
+ 67  TN+F+I        6308.798     167 12951.596    13030.739    13749.273
+ 68  TN+F+G4       6104.464     167 12542.928    12622.071    13340.605
+ 69  TN+F+I+G4     6105.375     168 12546.750    12626.953    13349.203
+ 70  TN+F+R2       6117.739     168 12571.477    12651.681    13373.931
+ 71  TN+F+R3       6095.007     170 12530.013    12612.365    13342.020
+ 72  TN+F+R4       6094.918     172 12533.835    12618.370    13355.395
+ 79  K3P           6478.418     163 13282.836    13357.821    14061.407
+ 80  K3P+I         6437.173     164 13202.346    13278.357    13985.693
+ 81  K3P+G4        6304.214     164 12936.428    13012.439    13719.775
+ 82  K3P+I+G4      6304.904     165 12939.809    13016.855    13727.932
+ 83  K3P+R2        6292.687     165 12915.374    12992.421    13703.498
+ 84  K3P+R3        6283.830     167 12901.660    12980.803    13699.337
+ 85  K3P+R4        6283.818     169 12905.635    12986.908    13712.865
+ 92  K3Pu+F        6335.077     166 13002.154    13080.244    13795.054
+ 93  K3Pu+F+I      6289.738     167 12913.476    12992.618    13711.152
+ 94  K3Pu+F+G4     6100.362     167 12534.723    12613.866    13332.400
+ 95  K3Pu+F+I+G4   6100.991     168 12537.982    12618.186    13340.435
+ 96  K3Pu+F+R2     6108.245     168 12552.490    12632.694    13354.943
+ 97  K3Pu+F+R3     6089.083     170 12518.166    12600.517    13330.172
+ 98  K3Pu+F+R4     6089.025     172 12522.050    12606.584    13343.609
+105  TPM2+F        6318.728     166 12969.455    13047.545    13762.355
+106  TPM2+F+I      6273.315     167 12880.630    12959.773    13678.307
+107  TPM2+F+G4     6094.040     167 12522.081    12601.223    13319.757
+108  TPM2+F+I+G4   6094.553     168 12525.107    12605.310    13327.560
+109  TPM2+F+R2     6103.902     168 12543.804    12624.008    13346.258
+110  TPM2+F+R3     6086.957     170 12513.913    12596.264    13325.919
+111  TPM2+F+R4     6086.942     172 12517.884    12602.419    13339.444
+118  TPM2u+F       6318.734     166 12969.469    13047.559    13762.369
+119  TPM2u+F+I     6273.316     167 12880.632    12959.774    13678.308
+120  TPM2u+F+G4    6094.040     167 12522.080    12601.223    13319.757
+121  TPM2u+F+I+G4  6094.543     168 12525.087    12605.290    13327.540
+122  TPM2u+F+R2    6103.901     168 12543.801    12624.005    13346.254
+123  TPM2u+F+R3    6086.929     170 12513.858    12596.209    13325.864
+124  TPM2u+F+R4    6086.921     172 12517.842    12602.376    13339.401
+131  TPM3+F        6365.468     166 13062.935    13141.026    13855.836
+132  TPM3+F+I      6315.816     167 12965.632    13044.775    13763.309
+133  TPM3+F+G4     6118.924     167 12571.848    12650.990    13369.525
+134  TPM3+F+I+G4   6119.474     168 12574.948    12655.152    13377.401
+135  TPM3+F+R2     6129.260     168 12594.520    12674.723    13396.973
+136  TPM3+F+R3     6107.469     170 12554.938    12637.290    13366.945
+137  TPM3+F+R4     6107.410     172 12558.819    12643.353    13380.378
+144  TPM3u+F       6365.463     166 13062.926    13141.017    13855.827
+145  TPM3u+F+I     6315.816     167 12965.631    13044.774    13763.308
+146  TPM3u+F+G4    6118.923     167 12571.845    12650.988    13369.522
+147  TPM3u+F+I+G4  6119.459     168 12574.918    12655.121    13377.371
+148  TPM3u+F+R2    6129.254     168 12594.508    12674.711    13396.961
+149  TPM3u+F+R3    6107.348     170 12554.696    12637.047    13366.702
+150  TPM3u+F+R4    6107.314     172 12558.629    12643.163    13380.188
+157  TIMe          6446.480     164 13220.960    13296.971    14004.307
+158  TIMe+I        6398.568     165 13127.137    13204.183    13915.261
+159  TIMe+G4       6263.430     165 12856.861    12933.907    13644.985
+160  TIMe+I+G4     6263.767     166 12859.534    12937.624    13652.434
+161  TIMe+R2       6261.046     166 12854.092    12932.182    13646.992
+162  TIMe+R3       6251.744     168 12839.489    12919.692    13641.942
+163  TIMe+R4       6251.685     170 12843.371    12925.722    13655.377
+170  TIM+F         6311.421     167 12956.841    13035.984    13754.518
+171  TIM+F+I       6266.515     168 12869.029    12949.233    13671.482
+172  TIM+F+G4      6076.601     168 12489.203    12569.406    13291.656
+173  TIM+F+I+G4    6077.026     169 12492.052    12573.325    13299.281
+174  TIM+F+R2      6088.557     169 12515.113    12596.386    13322.343
+175  TIM+F+R3      6069.931     171 12481.862    12565.300    13298.645
+176  TIM+F+R4      6069.907     173 12485.815    12571.453    13312.150
+183  TIM2e         6428.996     164 13185.993    13262.004    13969.340
+184  TIM2e+I       6380.065     165 13090.129    13167.176    13878.253
+185  TIM2e+G4      6248.995     165 12827.989    12905.036    13616.113
+186  TIM2e+I+G4    6249.121     166 12830.242    12908.333    13623.143
+187  TIM2e+R2      6253.677     166 12839.354    12917.444    13632.254
+188  TIM2e+R3      6246.844     168 12829.687    12909.891    13632.141
+189  TIM2e+R4      6246.620     170 12833.239    12915.591    13645.246
+196  TIM2+F        6299.379     167 12932.757    13011.900    13730.434
+197  TIM2+F+I      6253.597     168 12843.194    12923.397    13645.647
+198  TIM2+F+G4     6068.651     168 12473.302    12553.505    13275.755
+199  TIM2+F+I+G4   6069.000     169 12475.999    12557.272    13283.229
+200  TIM2+F+R2     6084.338     169 12506.676    12587.949    13313.906
+201  TIM2+F+R3     6068.384     171 12478.767    12562.206    13295.550
+202  TIM2+F+R4     6068.275     173 12482.550    12568.189    13308.886
+209  TIM3e         6490.678     164 13309.356    13385.367    14092.703
+210  TIM3e+I       6431.635     165 13193.271    13270.317    13981.394
+211  TIM3e+G4      6296.268     165 12922.537    12999.583    13710.660
+212  TIM3e+I+G4    6296.441     166 12924.882    13002.972    13717.782
+213  TIM3e+R2      6301.567     166 12935.133    13013.223    13728.033
+214  TIM3e+R3      6291.852     168 12919.703    12999.907    13722.157
+215  TIM3e+R4      6291.841     170 12923.682    13006.033    13735.688
+222  TIM3+F        6341.126     167 13016.252    13095.394    13813.928
+223  TIM3+F+I      6292.332     168 12920.664    13000.867    13723.117
+224  TIM3+F+G4     6097.467     168 12530.934    12611.137    13333.387
+225  TIM3+F+I+G4   6097.836     169 12533.673    12614.946    13340.902
+226  TIM3+F+R2     6110.277     169 12558.554    12639.827    13365.784
+227  TIM3+F+R3     6090.834     171 12523.668    12607.107    13340.451
+228  TIM3+F+R4     6090.709     173 12527.417    12613.056    13353.753
+235  TVMe          6408.360     165 13146.720    13223.766    13934.843
+236  TVMe+I        6359.529     166 13051.058    13129.148    13843.958
+237  TVMe+G4       6241.910     166 12815.821    12893.911    13608.721
+238  TVMe+I+G4     6242.022     167 12818.045    12897.187    13615.721
+239  TVMe+R2       6239.748     167 12813.496    12892.639    13611.173
+240  TVMe+R3       6235.189     169 12808.377    12889.650    13615.607
+248  TVM+F         6304.148     168 12944.295    13024.499    13746.748
+249  TVM+F+I       6256.057     169 12850.115    12931.388    13657.344
+250  TVM+F+G4      6084.197     169 12506.393    12587.666    13313.623
+251  TVM+F+I+G4    6084.395     170 12508.791    12591.142    13320.797
+252  TVM+F+R2      6093.169     170 12526.338    12608.689    13338.344
+253  TVM+F+R3      6080.440     172 12504.879    12589.413    13326.438
+254  TVM+F+R4      6078.289     174 12504.579    12591.331    13335.691
+261  SYM           6379.595     166 13091.191    13169.281    13884.091
+262  SYM+I         6322.682     167 12979.364    13058.506    13777.041
+263  SYM+G4        6201.009     167 12736.017    12815.160    13533.694
+264  SYM+I+G4      6201.058     168 12738.116    12818.319    13540.569
+265  SYM+R2        6207.873     168 12751.745    12831.949    13554.199
+266  SYM+R3        6202.258     170 12744.516    12826.867    13556.522
+274  GTR+F         6283.776     169 12905.553    12986.826    13712.782
+275  GTR+F+I       6235.232     170 12810.464    12892.815    13622.470
+276  GTR+F+G4      6059.189     170 12458.378    12540.730    13270.384
+277  GTR+F+I+G4    6059.406     171 12460.812    12544.251    13277.595
+278  GTR+F+R2      6073.420     171 12488.839    12572.277    13305.622
+279  GTR+F+R3      6060.356     173 12466.713    12552.351    13293.048
+280  GTR+F+R4      6058.023     175 12466.046    12553.921    13301.935
+Akaike Information Criterion:           GTR+F+G4
+Corrected Akaike Information Criterion: GTR+F+G4
+Bayesian Information Criterion:         GTR+F+G4
+Best-fit model: GTR+F+G4 chosen according to BIC
+
+All model information printed to all_uniques_uc.al.fas.model.gz
+CPU time for ModelFinder: 18.453 seconds (0h:0m:18s)
+Wall-clock time for ModelFinder: 18.462 seconds (0h:0m:18s)
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -6333.334
+2. Current log-likelihood: -6083.345
+3. Current log-likelihood: -6063.687
+4. Current log-likelihood: -6059.228
+Optimal log-likelihood: -6059.155
+Rate parameters:  A-C: 2.61144  A-G: 8.12515  A-T: 6.11245  C-G: 1.32472  C-T: 19.48547  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.172  G: 0.155  T: 0.374
+Gamma shape alpha: 0.504
+Parameters optimization took 4 rounds (0.364 sec)
+Computing ML distances based on estimated model parameters... 0.038 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -6105.009
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.438 second
+Computing log-likelihood of 98 initial trees ... 1.110 seconds
+Current best score: -6048.236
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -6039.630
+Iteration 10 / LogL: -6042.258 / Time: 0h:0m:3s
+Iteration 20 / LogL: -6041.511 / Time: 0h:0m:5s
+Finish initializing candidate tree set (20)
+Current best tree score: -6039.630 / CPU time: 5.031
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -6044.497 / Time: 0h:0m:7s (0h:0m:18s left)
+Iteration 40 / LogL: -6072.222 / Time: 0h:0m:10s (0h:0m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -6039.456
+Iteration 50 / LogL: -6039.456 / Time: 0h:0m:13s (0h:0m:26s left)
+Iteration 60 / LogL: -6067.774 / Time: 0h:0m:15s (0h:0m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -6039.435
+Iteration 70 / LogL: -6044.364 / Time: 0h:0m:17s (0h:0m:23s left)
+Iteration 80 / LogL: -6040.187 / Time: 0h:0m:19s (0h:0m:20s left)
+Iteration 90 / LogL: -6040.610 / Time: 0h:0m:22s (0h:0m:18s left)
+BETTER TREE FOUND at iteration 93: -6039.434
+Iteration 100 / LogL: -6042.137 / Time: 0h:0m:24s (0h:0m:22s left)
+Iteration 110 / LogL: -6039.435 / Time: 0h:0m:25s (0h:0m:19s left)
+Iteration 120 / LogL: -6042.744 / Time: 0h:0m:27s (0h:0m:16s left)
+Iteration 130 / LogL: -6067.698 / Time: 0h:0m:29s (0h:0m:14s left)
+UPDATE BEST LOG-LIKELIHOOD: -6039.434
+Iteration 140 / LogL: -6039.971 / Time: 0h:0m:31s (0h:0m:12s left)
+Iteration 150 / LogL: -6063.052 / Time: 0h:0m:33s (0h:0m:9s left)
+Iteration 160 / LogL: -6039.741 / Time: 0h:0m:35s (0h:0m:7s left)
+Iteration 170 / LogL: -6040.078 / Time: 0h:0m:37s (0h:0m:5s left)
+Iteration 180 / LogL: -6039.470 / Time: 0h:0m:39s (0h:0m:2s left)
+Iteration 190 / LogL: -6056.753 / Time: 0h:0m:41s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 194 ITERATIONS / Time: 0h:0m:41s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -6039.434
+Optimal log-likelihood: -6039.434
+Rate parameters:  A-C: 2.48901  A-G: 7.69770  A-T: 6.01926  C-G: 1.45394  C-T: 19.86316  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.172  G: 0.155  T: 0.374
+Gamma shape alpha: 0.502
+Parameters optimization took 1 rounds (0.027 sec)
+BEST SCORE FOUND : -6039.434
+Total tree length: 11.988
+
+Total number of iterations: 194
+CPU time used for tree search: 41.218 sec (0h:0m:41s)
+Wall-clock time used for tree search: 41.220 sec (0h:0m:41s)
+Total CPU time used: 41.682 sec (0h:0m:41s)
+Total wall-clock time used: 41.688 sec (0h:0m:41s)
+
+Analysis results written to: 
+  IQ-TREE report:                all_uniques_uc.al.fas.iqtree
+  Maximum-likelihood tree:       all_uniques_uc.al.fas.treefile
+  Likelihood distances:          all_uniques_uc.al.fas.mldist
+  Screen log file:               all_uniques_uc.al.fas.log
+
+Date and Time: Sun Feb  7 21:28:39 2021
